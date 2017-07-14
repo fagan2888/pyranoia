@@ -1,0 +1,5 @@
+data/.*
+data/subreddits.txt
+data/subreddits.txt*
+data/websites.txt
+data/websites.txt*

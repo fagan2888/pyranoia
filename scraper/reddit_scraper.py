@@ -11,7 +11,7 @@ reddit = praw.Reddit('ConspiracyCorpusScraper')
 
 
 # Iterate over subreddits
-
+https://wiki.haskell.org/Xmonad/Config_archive/John_Goerzen%27s_Configuration#Customizing_xmonad
 with open(data_dir+data_file) as f:
     for subreddit_name in f:
         subreddit = reddit.subreddit(subreddit_name.strip()) 
@@ -27,5 +27,3 @@ with open(data_dir+data_file) as f:
             except:
                 continue
         print(post_text)
-
-

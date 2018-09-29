@@ -3,10 +3,10 @@ from utils import DBConnection
 from datetime import datetime
 
 session = HTMLSession()
-db = DBConnection('infowars')
+db = DBConnection('db_name')
 today = datetime.today().strftime('%Y-%m-%d')
 
-url = 'https://www.infowars.com'
+url = URL
 r = session.get(url)
 
 category_elements_selector = '#menu-item-216953 > ul > li > a'
